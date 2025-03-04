@@ -1,0 +1,451 @@
+
+
+body {
+  background-color: rgb(169, 129, 77);
+}
+
+.main-header {
+  display: flex;
+  gap: 1.2em;
+  justify-content: center; /* Aligns them in the center */
+  align-items: center; /* Aligns them vertically */   
+  margin-right: 70px;
+  background-color: rgb(231, 231, 231);
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 20em;
+  height: 2em;
+ 
+}
+
+.logo {
+  width: 50px;
+ left: auto;
+ right:auto ;
+}
+
+.main-li{
+list-style-type: none;
+
+}
+
+.ancora-header {
+  text-decoration:none;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(121, 66, 0);
+  
+}
+
+.ancora-main {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 800;
+  color:rgb(11, 11, 11);
+}
+
+.ancora-donate {
+  text-decoration:none;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  
+}
+
+.ancora-stories {
+  text-decoration:none;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(11, 11, 11);
+}
+
+.ancora-about {
+  text-decoration:none;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(11, 11, 11);
+}
+
+.h2-headline{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 900;
+  color:rgb(0, 0, 0);
+  max-width: 16em;
+}
+
+.h1-main {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  max-width: 12em;
+}
+
+.main-bag {
+  width: 6em;
+  margin-left:90%;
+}
+
+.card-main {
+
+}
+
+.bt-donateMain {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 6px;
+
+ margin: 3em;
+}
+
+
+
+.ancoraBt-main {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: sans-serif;
+  color:rgb(0, 0, 0);
+}
+
+.whattodonatequestion {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color:rgb(255, 255, 255) ;
+  margin-left: 1em;
+}
+
+.list-whattodonate {
+gap: 8em;
+}
+
+.div-whattodonate{
+display: flex;
+}
+
+.li-whattodonate {
+list-style-type: none;
+}
+
+.h2-whattodonate {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  
+}
+
+.p-whattodonate {
+max-width: 200px;
+font-size: 14px;
+font-family: 'Courier New', Courier;
+font-weight: 800;
+color: aliceblue;
+}
+
+.img-whattodonate {
+  width: 200px;
+}
+
+.join-us {
+background-color: aliceblue;
+border-radius: 16px;
+padding: 14px;
+
+width: 250px;
+padding: 1em;
+
+margin-left: 55px;
+
+}
+
+.h2join-us {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 800;
+  color:rgb(75, 75, 75);
+  max-width: 16em;
+}
+
+.pjoin-us {
+  max-width: 290px;
+  font-size: 13px;
+  font-family: 'Courier New', Courier;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  
+}
+
+.bt-join {
+  border: 1px solid ;
+  border-radius: 6px;
+  padding: 6px;
+  background-color: black;
+  margin-left: 130px;
+  
+}
+
+.ancora-join {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color:orange;
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+
+.img-footer {
+  width: 28px;
+}
+
+.donate-difference {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: bisque;
+}
+
+.p-donate {
+  max-width: 272px;
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: 800;
+
+  color: rgb(41, 50, 58);
+  }
+
+
+.div-dnt {
+background-color: bisque;
+color: black;
+font-family: sans-serif;
+font-weight: 800;
+font-size: 17px;
+
+width: 350px;
+height: 150px;
+margin: 0.7em;
+
+border: 2px solid rgb(0, 0, 0);
+border-radius: 16px;
+}
+
+.ul-dnt {
+  display: flex;
+  gap: 16px;
+}
+
+.li-donate {
+list-style-type: none;
+}
+
+.bt-donate {
+background-color: rgb(0, 0, 0);
+color: orange;
+padding: 1em;
+width: 80px;
+border: 1px solid white;
+border-radius:10px ;
+
+font-weight: 600;
+font-family: Georgia, 'Times New Roman', serif;
+}
+
+.bt-donate:hover {
+  background-color: darkslategray;
+}
+
+
+.h1-join {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 800;
+  color:rgb(0, 0, 0);
+  
+}
+
+
+.p-join {
+  max-width: 450px;
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: 800;
+
+  color: rgb(255, 255, 255);
+}
+
+.h2-join {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 900;
+  color:rgb(255, 255, 255);
+  max-width: 16em;
+}
+
+
+.li-join {
+list-style-type: none;
+
+font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color:rgba(255, 255, 255, 0.741);
+  
+}
+
+
+
+.bt-4ways {
+  background-color: rgb(0, 0, 0);
+color: orange;
+padding: 1em;
+width: 100px;
+border: 1px solid white;
+border-radius:10px ;
+
+font-weight: 600;
+font-family: Georgia, 'Times New Roman', serif;
+
+  
+}
+
+.a-join {
+  text-decoration: none;
+  color: orange;
+  font-family: Georgia, serif;
+}
+
+.h1-dnt {
+  font-size:18px;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color:bisque;
+  max-width: 600px;
+}
+
+.h2-dnt {
+  max-width: 272px;
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: 800;
+
+  color:bisque;
+  }
+
+  .input {
+    background-color: rgb(174, 155, 130);
+    color: rgb(75, 75, 75);
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+
+
+  .li-donors {
+    list-style-type: none;
+  }
+
+  .h2-donors {
+    max-width: 272px;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 900;
+  
+    color:rgb(255, 255, 255);
+  }
+
+  .p-donors {
+    max-width: 450px;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 700;
+  
+    color: rgb(0, 0, 0);
+  }
+
+  .msg {
+    background-color: rgb(0, 0, 0);
+color: orange;
+padding: 1em;
+width: 200px;
+border: 1px solid white;
+border-radius:10px ;
+
+font-weight: 600;
+font-family: Georgia, 'Times New Roman', serif;
+  }
+
+
+  @media screen and (min-width: 700px) {
+
+    .main-header {
+      display: flex;
+     width: 100%;
+     background-color:rgb(121, 87, 43);
+     border: 1px solid transparent;
+
+     justify-content: start; /* Aligns them in the center */
+     align-items:center; /* Aligns them vertically */
+    }
+
+    .list-whattodonate {
+      display: flex;
+      gap: 16%;
+    }
+
+    .card-main {
+      gap: 1%;
+    }
+
+    .h1-main {
+      font-size: 0px;
+      
+    }
+
+    .main-bag {
+       margin-left: 40%;
+       width: 100px;
+    }
+
+    .join-us {
+      background-color: aliceblue;
+      border-radius: 16px;
+      
+      
+     width: 400px;
+      padding: 1em;
+      height: 210px;
+      
+      
+      margin-left: 3%;
+      
+      }
+
+      .logo {
+        width: 80px;
+        border: 1px solid white;
+        border-radius: 30px;
+        margin-left: 92%;
+      }
+     
+
+      .h2-headline{
+        margin-left: 525px;
+        font-size: 30px;
+      }
+      
+
+      
+  }
+
+
+
+  
+ 

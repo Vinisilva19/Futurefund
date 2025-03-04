@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Donate</title>
+</head>
+<body>
+
+    <header class="main-header">
+        <li class="main-li">
+           <a href="main.html" class="ancora-header">FutureFund</a>
+        </li>
+
+        <li class="main-li"> 
+            <a href="donate.html" class="ancora-donate">Donate</a>
+        </li>
+
+        <li class="main-li">
+            <a href="donors.html" class="ancora-header">Donors</a>
+        </li>
+
+        
+    </header>
+
+
+     <h2 class="donate-difference">Make a difference today!</h2>
+     <p class="p-donate">Any donation helps a child, it could be from $100 to even $1 and that would be huge.</p>
+     <h1 class="h1-main">Choose Your amount:</h1>
+
+
+
+    <div class="div-dnt">
+     <ul class="ul-dnt">
+        <li class="li-donate">
+            <button class="bt-donate" id="btDnt1" onclick="donate(event)">
+                $1
+            </button>
+        </li>
+
+        <li class="li-donate">
+            <button class="bt-donate" id="btDnt5" onclick="donate(event)">
+                $5
+            </button>
+        </li>
+
+
+        
+        <li class="li-donate">
+            
+            <button class="bt-donate" id="btDnt10" onclick="donate(event)">
+            
+                $10
+                
+            </button>
+            
+        </li>
+     
+    </ul>
+
+
+     <ul class="ul-dnt">
+     
+
+         <li class="li-donate">
+            <button class="bt-donate" id="btDnt20" onclick="donate(event)">
+                $20
+            </button>
+        </li>
+
+
+        <li class="li-donate">
+            <button class="bt-donate" id="btDnt50" onclick="donate(event)">
+                $50
+            </button>
+        </li>
+
+
+        <li class="li-donate">
+            <button class="bt-donate" id="btDnt100" onclick="donate(event)">
+                $100
+            </button>
+        </li>
+         </ul>
+    </div>
+
+    
+
+    <h2 class="h2-dnt">Keep in mind that any amount that you donate, we are really grateful.</h2>
+   
+
+    <form>
+        <label for="email">Enter your email:</label>
+        <input type="email" class="input" id="email" name="email" placeholder="Please add your email" required>
+        <button type="submit" class="bt-donate" id="email" onclick="sendEmail()">Send</button>
+    </form>
+
+    <div>
+        <h2 class="h2-headline" id="money-donated"></h2>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
